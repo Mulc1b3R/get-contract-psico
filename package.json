@@ -1,5 +1,6 @@
 {
   "name": "smart-contract-downloader",
+  "author": "psico",
   "private": true,
   "scripts": {
     "dev": "next dev",
