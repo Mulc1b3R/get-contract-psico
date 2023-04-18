@@ -1,5 +1,18 @@
 import AppForm from "../components/AppForm";
 import AppPreviewContract from "../components/AppPreviewContract";
+import ConnectWalletButton from '../components/ConnectWalletButton';
+import styles from '../styles/ConnectWalletButton.module.css';
+
+const Home = () => {
+  return (
+    <div className={styles.container}>
+      <ConnectWalletButton />
+      {/* The rest of your app's UI */}
+    </div>
+  );
+};
+
+export default Home;
 
 export default function Home() {
   return (
