@@ -13,7 +13,7 @@ export const AppGithubButtons: React.FC = () => {
         data-show-count="true"
         aria-label="remix ide"
       >
-        Open Remix
+        Remix
       </GitHubButton>
       <GitHubButton
         href="https://github.com/psico-mojo/get-contract-psico"
