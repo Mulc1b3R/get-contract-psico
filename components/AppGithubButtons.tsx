@@ -11,7 +11,7 @@ export const AppGithubButtons: React.FC = () => {
       <GitHubButton
         href="https://www.remixide.org/"
         data-show-count="true"
-        aria-label="Star on GitHub"
+        aria-label="remix ide"
       >
         Open Remix
       </GitHubButton>
