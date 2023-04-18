@@ -9,23 +9,23 @@ export const AppGithubButtons: React.FC = () => {
   return (
     <div className="flex gap-4">
       <GitHubButton
-        href="https://github.com/amimaro/smart-contract-downloader"
+        href="https://github.com/psico-mojo/get-contract-psico"
         data-show-count="true"
-        aria-label="Star amimaro/smart-contract-downloader on GitHub"
+        aria-label="Star on GitHub"
       >
         Star
       </GitHubButton>
       <GitHubButton
-        href="https://github.com/amimaro/smart-contract-downloader/fork"
-        aria-label="Fork amimaro/smart-contract-downloader on GitHub"
+        href="https://github.com/psico-mojo/get-contract-psico"
+        aria-label="Fork on GitHub"
       >
         Fork
       </GitHubButton>
       <GitHubButton
-        href="https://github.com/amimaro"
-        aria-label="Follow @amimaro on GitHub"
+        href="https://github.com/psico-mojo/get-contract-psico"
+        aria-label="Follow on GitHub"
       >
-        Follow @amimaro
+        Follow
       </GitHubButton>
     </div>
   );
