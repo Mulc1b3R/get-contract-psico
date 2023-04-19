@@ -9,11 +9,11 @@ export const AppGithubButtons: React.FC = () => {
   return (
     <div className="flex gap-4">
       <GitHubButton
-        href="https://www.remixide.org"
+        href="https://github.com/psico-mojo/get-contract-psico"
         data-show-count="true"
-        aria-label="remix ide"
+        aria-label="star"
       >
-        Remix
+        Star
       </GitHubButton>
       <GitHubButton
         href="https://github.com/psico-mojo/get-contract-psico"
