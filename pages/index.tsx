@@ -1,16 +1,29 @@
 import AppForm from "../components/AppForm";
 import AppPreviewContract from "../components/AppPreviewContract";
-import RemixButton from '../components/RemixButton';
-import styles from '../styles/Home.module.css';
+import React from 'react';
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <div className={styles.container}>
-      <RemixButton />
+    <div>
       {/* The rest of your app's UI */}
-    </div>
+      <a className="remix-link" href="https://remix.org" target="_blank" rel="noopener noreferrer">
+        Go to remix.org
+      </a>
+    </div> 
   );
-}
+};
+
+export default HomePage;
+
+
+
+ 
+   
+      
+      
+
+
+
 export default function Home() {
   return (
     <div>
