@@ -6,15 +6,9 @@ After finding the desired contract you can download the package as a compressed 
 **********************************************************************************************************************************
 ![blok](smart-contract1.png)
 
-## Adding a new network
+********************************************************************************************************************************
 
-Edit [`networks.ts`](https://github.com/amimaro/smart-contract-downloader/blob/main/networks.ts) file to add a new blockchain explorer option.
-
-It is not necessary to fill in all the fields unless you know the API and want to do your own tests.
-
-Otherwise, you can open an issue with the address of the blockchain to be added.
-
-## Current networks available
+## Current networks 
 
 - Ethereum Mainnet
 - Rinkeby Testnet
@@ -33,31 +27,12 @@ Otherwise, you can open an issue with the address of the blockchain to be added.
 
 ## Development - Getting started
 * ```.env``` Add your etherscan api key to the environments file and save.
+* ```npm install``` to add the dependencies.
+* ```npm dev``` to start the dev server on [http://localhost:3000](http://localhost:3000) 
+* ```npm build``` to create an optimised build.
+* ```npm start``` to check your build om [http://localhost:3000](http://localhost:3000) 
+* Deploy your build : upload to server.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-
-### Available Scripts
-
-In the project directory, you can run:
-
-### `npm dev`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 **********************************************************************************************************************************
-## License
-
 Apache 2.0
 ***********************************************************************************************************************************
