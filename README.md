@@ -5,6 +5,8 @@ This is a smart contract downloader which uses Etherscan, PolygonScan and BSCSca
 After finding the desired contract you can download the package as a compressed zip file.
 
 Also feel free to open an issue for any feature request, bugs, etc.
+**********************************************************************************************************************************
+![blok](smart-contract.png)
 
 ## Adding a new network
 
