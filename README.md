@@ -11,10 +11,7 @@ After finding the desired contract you can download the package as a compressed 
 ## Current networks 
 
 - Ethereum Mainnet
-- Rinkeby Testnet
-- Ropsten Testnet
-- Kovan Testnet
-- Goerli Testnet
+- Sepolia Testnet
 - Polygon Mainnet
 - Polygon Mumbai Testnet
 - Binance Smart Chain Mainnet
