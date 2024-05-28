@@ -8,12 +8,12 @@ export const NETWORKS: NetworksObject = {
     endpoint: (contractAddress: string) =>
       `https://api.etherscan.io/api?module=contract&action=getsourcecode&address=${contractAddress}&apikey=${process.env.APIKEY_ETHERSCAN}`,
   },
-  rinkeby: {
-    label: "Rinkeby Testnet",
-    url: "https://rinkeby.etherscan.io",
+  sepolia: {
+    label: "Sepolia Testnet",
+    url: "https://sepolia.etherscan.io/",
     apiKey: process.env.APIKEY_ETHERSCAN as string,
     endpoint: (contractAddress: string) =>
-      `https://api-rinkeby.etherscan.io/api?module=contract&action=getsourcecode&address=${contractAddress}&apikey=${process.env.APIKEY_ETHERSCAN}`,
+      `https://api-sepolia.etherscan.io/api?module=contract&action=getsourcecode&address=${contractAddress}&apikey=${process.env.APIKEY_ETHERSCAN}`,
   },
   ropsten: {
     label: "Ropsten Testnet",
