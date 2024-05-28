@@ -15,26 +15,12 @@ export const NETWORKS: NetworksObject = {
     endpoint: (contractAddress: string) =>
       `https://api-sepolia.etherscan.io/api?module=contract&action=getsourcecode&address=${contractAddress}&apikey=${process.env.APIKEY_ETHERSCAN}`,
   },
-  ropsten: {
-    label: "Ropsten Testnet",
-    url: "https://ropsten.etherscan.io",
-    apiKey: process.env.APIKEY_ETHERSCAN as string,
-    endpoint: (contractAddress: string) =>
-      `https://api-ropsten.etherscan.io/api?module=contract&action=getsourcecode&address=${contractAddress}&apikey=${process.env.APIKEY_ETHERSCAN}`,
-  },
   kovan: {
     label: "Kovan Testnet",
     url: "https://kovan.etherscan.io",
     apiKey: process.env.APIKEY_ETHERSCAN as string,
     endpoint: (contractAddress: string) =>
       `https://api-kovan.etherscan.io/api?module=contract&action=getsourcecode&address=${contractAddress}&apikey=${process.env.APIKEY_ETHERSCAN}`,
-  },
-  goerli: {
-    label: "Goerli Testnet",
-    url: "https://goerli.etherscan.io",
-    apiKey: process.env.APIKEY_ETHERSCAN as string,
-    endpoint: (contractAddress: string) =>
-      `https://api-goerli.etherscan.io/api?module=contract&action=getsourcecode&address=${contractAddress}&apikey=${process.env.APIKEY_ETHERSCAN}`,
   },
   polygon: {
     label: "Polygon Mainnet",
