@@ -34,6 +34,7 @@ Otherwise, you can open an issue with the address of the blockchain to be added.
 - Fantom Testnet
 
 ## Development - Getting started
+* ```.env``` Add your etherscan api key to the environments file and save.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
