@@ -25,7 +25,7 @@ export const AppGithubButtons: React.FC = () => {
         href="https://github.com/Mulc1b3R"
         aria-label="Follow on GitHub"
       >
-        xxxx
+        Follow
       </GitHubButton>
     </div>
   );
