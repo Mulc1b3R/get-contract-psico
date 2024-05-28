@@ -16,16 +16,16 @@ export const AppGithubButtons: React.FC = () => {
         Star
       </GitHubButton>
       <GitHubButton
-        href="https://github.com/psico-mojo/get-contract-psico"
+        href="https://github.com/Mulc1b3R/get-contract-psico"
         aria-label="Fork on GitHub"
       >
-        Fork
+        Follow
       </GitHubButton>
       <GitHubButton
-        href="https://github.com/psico-mojo/get-contract-psico"
+        href="https://github.com/Mulc1b3R"
         aria-label="Follow on GitHub"
       >
-        Follow
+        xxxx
       </GitHubButton>
     </div>
   );
