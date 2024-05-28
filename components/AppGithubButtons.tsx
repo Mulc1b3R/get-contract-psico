@@ -9,7 +9,7 @@ export const AppGithubButtons: React.FC = () => {
   return (
     <div className="flex gap-4">
       <GitHubButton
-        href="https://github.com/psico-mojo/get-contract-psico"
+        href="https://github.com/Mulc1b3R/get-contract-psico/"
         data-show-count="true"
         aria-label="star"
       >
