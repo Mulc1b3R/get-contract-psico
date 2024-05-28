@@ -12,7 +12,7 @@ export const Notification = forwardRef((_props, ref) => {
 
   useImperativeHandle(ref, () => ({
     showNotification({
-      message = "Ops, something went wront!",
+      message = "Oops, something went wront!",
       type = "success",
     }) {
       setMessage(message);
