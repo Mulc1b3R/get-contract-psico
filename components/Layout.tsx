@@ -10,8 +10,8 @@ export default function Layout({ children }: any) {
         <meta name="description" content="Find and Download smart contracts" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <center><h1> Smart Contract Downloader</h1></center>
       <div className="flex flex-col items-center justify-between gap-2 md:flex-row">
-       <center><h1> Smart Contract Downloader</h1></center>
         <AppGithubButtons />
       </div>
       <AppContextProvider>{children}</AppContextProvider>
