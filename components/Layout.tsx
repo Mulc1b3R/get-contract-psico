@@ -11,7 +11,7 @@ export default function Layout({ children }: any) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col items-center justify-between gap-2 md:flex-row">
-        <h1> Smart Contract Downloader</h1>
+       <center><h1> Smart Contract Downloader</h1></center>
         <AppGithubButtons />
       </div>
       <AppContextProvider>{children}</AppContextProvider>
